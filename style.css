@@ -27,7 +27,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: black;
+    color: rgb(75, 71, 71);
+    text-decoration: none;
 }
 
 header nav {
@@ -107,6 +108,7 @@ footer {
 }
 .social-menu {
     display: flex;
+    width: 100%;
 }
 .social-menu ul {
     position: relative;
@@ -137,6 +139,7 @@ footer {
     text-align: center;
     transition: .6s;
     box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+    margin-bottom: 5px;
 }
 .social-menu ul li a:hover {
     transform: translate(0, -10px);
