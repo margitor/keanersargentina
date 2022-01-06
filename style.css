@@ -64,7 +64,7 @@ header nav {
 .about {
     width: 100%;
     height: 100%;
-    padding: 60px 60px 20px 20px;
+    padding: 60px 60px;
 }
 #titulo_descripcion {
     text-transform: uppercase;
@@ -80,7 +80,7 @@ header nav {
     line-height: 25px;
 }
 #galeria {
-    padding: 60px 60px 20px 20px;
+    padding: 60px 60px;
 }
 #titulo_galeria {
     text-transform: uppercase;
@@ -102,9 +102,8 @@ header nav {
 }
 footer {
     width: 100%;
-    height: 200px;
-    padding: 60px 60px 20px 20px ;
-    margin-top: 60px;
+    height: 100%;
+    padding: 60px 60px  ;
 }
 .social-menu {
     display: flex;
