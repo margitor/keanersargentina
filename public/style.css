@@ -3,36 +3,46 @@ body {
     font-size: 16px;
     background: rgb(240,223,209);
 background: linear-gradient(180deg, rgba(240,223,209,1) 52%, rgba(141,119,115,1) 77%);
+    margin: 0px;
+}
+header {
+    background-color: #f0dfd1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
 }
 .logo {
     height: 80px;
     width: 80px;
-    margin: 5px;
-    margin-left: 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+
 }
 
-ul li {
-    display: inline-block;
-    float: left;
-    margin-top: 30px;
-}
-
-nav ul li a {
+ul li a {
     text-decoration: none;
-    padding-right: 10px;
-    padding-left: 10px;
-    color: white;
-    background-color: #876963;
+    color: #876963;
     font-size: 18px;
+    line-height: initial ;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    }
+
+nav {
+    width: 50%;
+    height: 100%;
+}
 nav ul li a:hover {
     color: rgb(75, 71, 71);
     text-decoration: none;
-}
-
-header nav {
-    background-color: #f0dfd1;
 }
 
 .titulo_principal {
