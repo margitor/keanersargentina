@@ -1,0 +1,38 @@
+
+header {
+    background-color: #f0dfd1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #876963;
+    font-size: 16px;
+    text-align: center;
+}
+nav ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+nav {
+    padding-top: 5vh;
+}
+.seccion_principal {
+ margin-top: 15vh;
+}
+.titulo_principal {
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    font-size: 18px;
+}

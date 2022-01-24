@@ -4,6 +4,8 @@ body {
     background: rgb(240,223,209);
 background: linear-gradient(180deg, rgba(240,223,209,1) 52%, rgba(141,119,115,1) 77%);
     margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
 }
 header {
     background-color: #f0dfd1;
@@ -28,7 +30,8 @@ ul li a {
 }
 
 ul {
-    list-style-type: none;
+    padding-left: 0;
+    list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,7 +47,6 @@ nav ul li a:hover {
     color: rgb(75, 71, 71);
     text-decoration: none;
 }
-
 .titulo_principal {
     color: white;
     background-color: #8d7773;
